@@ -2,7 +2,7 @@
   "name": "Landscaper",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kylerichetti.github.io/Landscaper#about",
+  "homepage": "https://kylerichetti.github.io/Landscaper",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-scripts": "0.9.5"
