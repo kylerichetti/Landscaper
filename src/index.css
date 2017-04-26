@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #224b22
+}
+
+#navWrapper ul li{
+	list-style-type: none;
+	/* float: left; */
+	display: block;
+	padding: 1%;
+}
+
+#navWrapper ul li a{
+	color: #cba135;
+}
+
+#navWrapper{
+	text-align: center;
+	position: relative;
+	width: 40%;
+	left: 29%;
+}

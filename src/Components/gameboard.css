@@ -1,0 +1,39 @@
+#puzzleWrapper{
+	text-align: center;
+}
+
+#board{
+	position: relative;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px;
+	height: 400px;
+}
+
+#overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0, 0, 0, 0.35);
+    z-index:9999;
+    color:white;
+	text-align: center;
+}
+ 
+#overlay:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+#overlayText {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 15px;
+    position:relative;
+    font-weight:bold;
+}
